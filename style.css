@@ -1,0 +1,94 @@
+body {
+	background-color: #FAF7F0;
+	font-weight: 600;
+	font-size: 20px;
+	color: #B8B2A6;
+  font-family: 'Noto Serif', serif;
+
+}
+h1{
+  color: #98A8F8 ;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: Helvetica ;
+  font-size: ;
+  color: #7286D3 ;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+p {
+  font-size: 19px ;
+  font-weight: 100;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #6096B4 ;
+
+}
+a:hover {
+  color: black;
+}
+#container {
+  width: 700px ;
+  margin: 40px auto ;
+
+}
+
+.card-box {
+  background-color: #F0EBE3 ;
+  border-radius: 100px ;
+  padding: 40px ;
+  margin: 20px 0px ;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1) ;
+  text-align: center;
+
+}
+
+#pp {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+
+}
+#btn-green {
+  color: white ;
+  background-color: #6096B4 ;
+  padding: 15px 20px ;
+  border-radius: 4px ;
+}
+#btn-green:hover {
+  color: white ;
+  background-color: black ;
+}
+#list-inline{
+  list-style: none;
+  padding: 0px;
+}
+#list-inline li{
+  display: inline;
+  padding: 10px
+}
+#list-inline i {
+  font-size: 50px;
+  color: black;
+}
+#list-inline i:hover {
+  font-size: 50px;
+  color: #C8C2BC;
+}
+@media (max-width: 760px) {
+  #container {
+    width: 600px ;
+  }
+}
+@media (max-width: 500px) {
+  #container {
+    width: 500 ;
+  }
+}
+#introduction p {
+  margin-bottom: 40px;
+}
